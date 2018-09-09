@@ -64,6 +64,29 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.ikefree" name="Ike.Free" version="0.1" provider-name="Ike">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ike Free</summary>
+    <description lang="en">Ike Free</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.p2psport"
 	name="[COLOR green]p2psport[/COLOR]"
 	version="0.1.4"
@@ -141,9 +164,9 @@
 
 <addon id="repository.free" name="[COLOR gold][B]Ike.Free.Repo[/B][/COLOR]" version="0.1" provider-name="[COLOR lime][B]IKE[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="repository.free">
-		<info compressed="false">https://raw.githubusercontent.com/xistra/ufp/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xistra/ufp/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/xistra/ufp/master/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/ikesuncat/free/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ikesuncat/free/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/ikesuncat/free/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>[COLOR blue][B]Ike.Free.Repo[/B][/COLOR]</summary>
