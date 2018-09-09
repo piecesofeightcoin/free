@@ -2,7 +2,7 @@
 <addon id="repository.free" name="[COLOR gold][B]Ike.Free.Repo[/B][/COLOR]" version="0.1" provider-name="[COLOR lime][B]IKE[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="repository.free">
 		<info compressed="false">https://raw.githubusercontent.com/ikesuncat/free/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ikesuncat/free/addons.xml.md5</checksum>
+		<checksum>https://raw.githubusercontent.com/ikesuncat/free/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/ikesuncat/free/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
